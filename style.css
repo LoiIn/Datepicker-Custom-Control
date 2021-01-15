@@ -1,0 +1,214 @@
+/* home css */
+*{
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+}
+
+.container {
+  width: 50%;
+  margin: auto;
+  margin-top: 50px;
+  padding: 16px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.container h1{
+  text-align: center;
+}
+
+#lunar_area{
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#see_lunar{
+  background-color: #008CBA;
+  color: white;
+  border: none;
+  height: 30px;
+}
+
+.one_lunar_area{
+  background-color: #f1f1f1;
+  width: 48%;
+  padding: 10px;
+}
+
+.hidden_lunar{
+  display: none !important;  
+}
+
+.one_lunar_area ul{
+  list-style: none;
+}
+
+#date_area{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.one_date_area{
+  width: 48%;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.registerbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+a {
+  color: dodgerblue;
+}
+
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+
+/* date picker css */
+.ui-dateRs {
+    width: 240px;
+    font-size: 16px;
+    color: #666;
+    box-shadow: 2px 2px 8px 2px rgba(128, 128, 128, .3);
+    position: absolute;
+    display: none;
+    background: white;
+  }
+  
+  .ui-rs-show {
+    display: block;
+  }
+  
+  .ui-dateRs .ui-datepicker-header {
+    background: #f0f0f0;
+    padding: 0 20px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    font-weight: bold;
+  }
+  
+  .ui-dateRs .ui-datepicker-btn {
+    font-family: serif;
+    font-size: 20px;
+    width: 20px;
+    height: 50px;
+    line-height: 50px;
+    color: #1abc9c;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .ui-dateRs .ui-prev-month {
+    float: left;
+  }
+  
+  .ui-dateRs .ui-next-month {
+    float: right;
+  }
+  
+  .ui-dateRs .ui-datepicker-body table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .ui-dateRs .ui-datepicker-body table th,
+  .ui-dateRs .ui-datepicker-body table td {
+    height: 30px;
+    text-align: center;
+  }
+  
+  .ui-dateRs .ui-datepicker-body th {
+    font-size: 12px;
+    height: 40px;
+    line-height: 40px;
+  }
+  
+  .ui-dateRs .ui-datepicker-body table td {
+    border: 1px solid #f0f0f0;
+    font-size: 10px;
+  }
+  
+  .ui-dateRs .ui-datepicker-body table td.today {
+    color: white;
+    background: #1abc9c;
+  }
+  
+  .ui-dateRs .ui-datepicker-body table td:hover {
+    cursor: pointer;
+    color: white;
+    background: #1abc9c;
+  }
+  
+  .ui-dateRs .ui-datepicker-body table td.disabled {
+    color: rgba(66, 66, 66, .3);
+    background: white;
+  }
+  
+  .ui-dateRs .ui-datepicker-body table td.disabled:hover {
+    cursor: default;
+  }
+
+
+  .datepicker:focus {
+    outline: none;
+    border: 1px solid #1abc9c;
+  }
+
+  .btn {
+    display: block;
+    width: 200px;
+    margin: 10px auto;
+    text-align: center;
+    text-decoration: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+    border-radius: .3em;
+  }
+
+  .btn-red {
+    background: red;
+    color: white;
+  }
